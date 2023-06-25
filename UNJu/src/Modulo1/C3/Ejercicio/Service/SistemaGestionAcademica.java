@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 public class SistemaGestionAcademica {
 
-	public List<Persona> personas = new ArrayList<>();
-	public List<Curso> cursos = new ArrayList<>();
+	private List<Persona> personas = new ArrayList<>();
+	private List<Curso> cursos = new ArrayList<>();
 
 	Scanner leer = new Scanner(System.in);
 
