@@ -1,7 +1,0 @@
-Entity\Asignatura_.class
-Entity\Profesor_.class
-Entity\Asignatura.class
-Persistencia\DAO.class
-Persistencia\ProfesorDAO.class
-Entity\Profesor.class
-Persistencia\AsignaturaDAO.class

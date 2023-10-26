@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TP1</title>
+</head>
+
+<body>
+
+	<table border="1px">
+		<tr>
+			<th>
+				Nombre
+			</th>
+			<th>
+				Materia
+			</th>
+			<th>
+				Turno
+			</th>
+		</tr>
+		<tr th:each="profesor : ${listaProfesores}">
+			<td th:text="${profesor.nombre}"></td>
+			<td th:text="${profesor.materia}"></td>
+			<td th:text="${profesor.turno}"></td>
+		</tr>
+	</table>
+</body>
+
+</html>
