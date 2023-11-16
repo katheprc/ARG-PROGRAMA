@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Formulario de ALTA</h1>
+        <h3>Para adicionar una materia nueva a un profesor existente, solo es necesario rellenar LEGAJO y NOMBRE ASIGNATURA</h3>
+        <form action="profesA.jsp" method="POST">
+            Legajo: <input required type="text" name="legajo"><br>
+            Nombres <input type="text" name="nombres"><br>
+            Apellidos <input type="text" name="apellidos"><br>
+            telefono <input type="text" name="telefono"><br>
+            Nombre asignatura: <input required type="text" name="nombreasig"><br>
+            <input type="submit" value="Guardar Profesor">
+        </form>
+        <p>
+
+
+        </p>
+        <h1>Formulario de BAJA</h1>
+        <form action="profesB.jsp" method="POST">
+            Legajo: <input type="text" name="legajo"><br>
+            <input type="submit" value="Eliminar Profesor">
+        </form>
+
+        <p>
+
+
+        </p>
+        <h1>LISTAR PROFESORES Y ASIGNATURAS</h1>
+        <form action="profesM.jsp" method="POST">
+            <input type="submit" value="Listar">
+        </form>
+
+    </body>
+</html>
